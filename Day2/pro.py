@@ -1,0 +1,5 @@
+name = input('Name of salesperson: ')
+total_sale = input('How much sale has happened this month: ')
+total_sale = int(total_sale)
+commission = round(total_sale*13/100,2)
+result = print(f'total commision {total_sale} as per sale  {commission} ')
